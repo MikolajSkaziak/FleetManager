@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FleetManager/FleetManager.csproj" />
+  <Project Path="FleetMenager.Tests/FleetMenager.Tests.csproj" />
+</Solution>
