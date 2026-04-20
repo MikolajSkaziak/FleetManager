@@ -34,14 +34,14 @@ Instead of cluttered `try-catch` blocks in every controller, a custom middleware
 * `PUT /api/Vehicles/{id}` - Update vehicle (Model, Brand, Plate, Type)
 * `DELETE /api/Vehicles/{id}` - Delete vehicle 
 ### Drivers
-* `GET /api/drivers` - List all drivers
-* `POST /api/drivers` - Add new driver (Name, Surname, License categories)
+* `GET /api/Drivers` - List all drivers
+* `POST /api/Drivers` - Add new driver (Name, Surname, License categories)
 * `PUT /api/Drivers/{id}` - Update driver (Name, Surname, License categories)
 * `DELETE /api/Drivers/{id}` - Delete driver 
 
 ### Trips
-* `GET /api/trips` - View trip history (including full driver and vehicle details)
-* `POST /api/trips` - Log a new trip (Includes validation: License must match Vehicle Type)
+* `GET /api/Trips` - View trip history (including full driver and vehicle details)
+* `POST /api/Trips` - Log a new trip (Includes validation: License must match Vehicle Type)
 
 ## Testing
 
